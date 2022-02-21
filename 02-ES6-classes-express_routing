@@ -1,0 +1,31 @@
+Middleware in Express is a way to do something before a request is processed. 
+This could be things like checking if a user is authenticated, logging data for analytics, 
+or anything else we’d like to do before we actually spit out information to our user.
+
+request object:
+The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on.
+
+response object:
+The res object represents the HTTP response that an Express app sends when it gets an HTTP request.
+
+Application Middleware:
+Bind application-level middleware to an instance of the app object by using the app.use() and app.METHOD() functions, where METHOD is the HTTP method of the request that the middleware function handles (such as GET, PUT, or POST) in lowercase
+
+Routing Middleware:
+Router-level middleware works in the same way as application-level middleware, except it is bound to an instance of express.Router().
+
+
+
+Name 3 real world use cases where you’d want to change the request with custom middleware
+
+True or false: The route handler is middleware? true
+
+In what ways can a middleware function end the process and send data to the browser?
+it calls call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.
+
+At what point in the request lifecycle can you “inject” middleware?
+You can load application-level and router-level middleware with an optional mount path. You can also load a series of middleware functions together, which creates a sub-stack of the middleware system at a mount point.
+
+
+What can cause express to error with “Request headers sent twice, cannot start a second response”
+i couldn't find an answer to this.
