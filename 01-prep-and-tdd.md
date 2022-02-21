@@ -1,4 +1,18 @@
-# advanced-js-reading-notes
+What’s the difference between PUT and PATCH?
+PUT is a method of modifying resource where the client sends data that updates the entire resource . PATCH is a method of modifying resources where the client sends partial data that is to be updated without modifying the entire data
+
+Provide links to 3 services or tools that allow you to “mock” an API for development like json-server?
+https://github.com/nock/nock
+https://www.mock-server.com/
+https://beeceptor.com/
+
+Compare and contrast Swagger and APIDoc.js 1 Which HTTP status codes should be sent with each type of (un)successful API call?
+Client error responses (400–499)
+Server error responses (500–599)
+
+Compare and contrast SOAP and ReST:
+SOAP is a protocol while REST is not
+
 Event loop:
 
 The event loop has to wait until the stack is clear before it pushes the call back into the stack. it compares both
