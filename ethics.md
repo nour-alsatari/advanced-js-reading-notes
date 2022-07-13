@@ -1,0 +1,8 @@
+Ethics in the workplace: The code I’m still ashamed of
+
+write how each of them relates to ethics in technology.
+This article heavily relates to ethics due to the fact that as web developers we are morally responsible for what we build and deploy out there in the web. Sadly the writer and his team didn't think their website throughly from an ethical stand point, which resulted in a young girl bein harmed. Even if it's a project for some client, as a developer who gave the client the means and facilitated their mission, we are partially held accountable for what we build. I agree with the article that the more software continues to take over every aspect of our lives, the more important it will be for us to take a stand and ensure that our ethics are ever-present in our code. What stuck out to me specifically from this article was trying to think twice about the effects of out code before we write it.
+
+Ethics in Technology: Ethical dilemma of self driving cars
+
+Sadly there isn't a valid ethical basis for an automonous system deciding who to save. The trolley problem is interesting and worthy of thought but not how autonomous vehicles will be programmed because that leads us as programmers to be the judge of who is worthy of saving and who is not. I agree with the article that the greater challenge is the artificial intelligence behind the machine, because that means we will feed our AI data that will influce its decision making mechanism therefore, we will be ethically responsible for how it responds in critical situations. What stuck out to me specifically from this article was the dilemma of picking victims in the case of an accident because it's such a complicated ethical dilemma.
